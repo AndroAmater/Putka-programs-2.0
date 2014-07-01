@@ -1,8 +1,8 @@
 //
 //  main.c
-//  Hello World
+//  trgovina
 //
-//  Created by Andrej Fidel on 23/05/14.
+//  Created by Andrej Fidel on 30/05/14.
 //  Copyright (c) 2014 Andrej Fidel. All rights reserved.
 //
 

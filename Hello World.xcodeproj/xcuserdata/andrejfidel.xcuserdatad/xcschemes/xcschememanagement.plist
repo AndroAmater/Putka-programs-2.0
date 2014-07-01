@@ -9,10 +9,60 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>If.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>for.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>trgovina.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>while.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>D9103E81192F8E7800901C90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D9103E93192F975D00901C90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D91A471E1961412E0079238E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D97319961938CA570088FA87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D97319A51938CB8D0088FA87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D97319B41938D0000088FA87</key>
 		<dict>
 			<key>primary</key>
 			<true/>
