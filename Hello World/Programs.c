@@ -96,7 +96,7 @@ int pos()
 int besedilo()
 {
     char a[255];
-    printf("Vpiši besedilo");
+    printf("Vpiši besedilo:\n");
     scanf("%s", a);
     printf("Dolžina je %zu\n", strlen(a));
     printf("Prva črka je %c\n", a[0]);

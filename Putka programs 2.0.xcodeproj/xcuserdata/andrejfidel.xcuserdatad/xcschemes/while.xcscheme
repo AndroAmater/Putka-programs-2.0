@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9103E81192F8E7800901C90"
-               BuildableName = "Hello World"
-               BlueprintName = "Hello World"
-               ReferencedContainer = "container:Hello World.xcodeproj">
+               BlueprintIdentifier = "D97319961938CA570088FA87"
+               BuildableName = "while"
+               BlueprintName = "while"
+               ReferencedContainer = "container:Putka programs 2.0.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9103E81192F8E7800901C90"
-            BuildableName = "Hello World"
-            BlueprintName = "Hello World"
-            ReferencedContainer = "container:Hello World.xcodeproj">
+            BlueprintIdentifier = "D97319961938CA570088FA87"
+            BuildableName = "while"
+            BlueprintName = "while"
+            ReferencedContainer = "container:Putka programs 2.0.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9103E81192F8E7800901C90"
-            BuildableName = "Hello World"
-            BlueprintName = "Hello World"
-            ReferencedContainer = "container:Hello World.xcodeproj">
+            BlueprintIdentifier = "D97319961938CA570088FA87"
+            BuildableName = "while"
+            BlueprintName = "while"
+            ReferencedContainer = "container:Putka programs 2.0.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9103E81192F8E7800901C90"
-            BuildableName = "Hello World"
-            BlueprintName = "Hello World"
-            ReferencedContainer = "container:Hello World.xcodeproj">
+            BlueprintIdentifier = "D97319961938CA570088FA87"
+            BuildableName = "while"
+            BlueprintName = "while"
+            ReferencedContainer = "container:Putka programs 2.0.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
