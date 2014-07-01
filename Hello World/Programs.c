@@ -13,6 +13,7 @@
 void insf(char *insert, char *destination, int pos);
 void delf(char *source, int from, int count);
 
+    //Program igra ugibanja
 int ugani()
 {
     int a=((int)random())%100, b=0;
@@ -32,6 +33,7 @@ int ugani()
     return 0;
 }
 
+    //Pascal insert funkcija (demonstracija)
 int insert()
 {
     char a[128] = "How are you?";
@@ -41,6 +43,7 @@ int insert()
     return 0;
 }
 
+    //Pascal delete funkcija (demonstracija)
 int delete()
 {
     char a[128] = "Hey there! How are you?";
@@ -53,18 +56,21 @@ int delete()
     return 0;
 }
 
+    //Pascal insert funkcija
 void insf(char *insert, char *destination, int pos)
 {
     memmove(destination+pos+strlen(insert), destination+pos, strlen(insert)+1);
     memmove(destination+pos, insert, strlen(insert));
 }
 
+    //Pascal delete funkcija
 void delf(char *source, int from, int count)
 {
     //memmove(destination, source, count);
     memmove(source+from, source+from+count, strlen(source+from+count)+1);
 }
 
+    //Pascal copy funkcija (Demonstracija)
 int copy()
 {
     char a[255] = "Hey there! How are you?";
@@ -75,6 +81,7 @@ int copy()
     return 0;
 }
 
+    //Pascal pos funkcija (demonstracija)
 int pos()
 {
     int b=0;
@@ -85,6 +92,7 @@ int pos()
     return 0;
 }
 
+    //Program besedilo
 int besedilo()
 {
     char a[255];
@@ -95,7 +103,7 @@ int besedilo()
     return 0;
 }
 
-
+    //Program deljivo z 7
 int deljivo()
 {
     int a;
@@ -106,6 +114,7 @@ int deljivo()
     return 0;
 }
 
+    //Program trgovina
 int trgovina(){
     int a=0, b=0;
     printf("How much cash do u have? ");
@@ -126,6 +135,7 @@ int trgovina(){
     return 0;
 }
 
+    //Program vecji kot nic
 int vecjinic()
 {
     int a=0;
@@ -136,6 +146,8 @@ int vecjinic()
     return 0;
 }
 
+
+    //Program Vsota
 int vsota()
 {
     int a=0, b=0;
