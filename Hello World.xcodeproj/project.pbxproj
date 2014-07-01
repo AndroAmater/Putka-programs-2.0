@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		D91A47241961412E0079238E /* Test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D91A47231961412E0079238E /* Test.1 */; };
 		D91A472E196147A10079238E /* Run (case).c in Sources */ = {isa = PBXBuildFile; fileRef = D91A472D196147A10079238E /* Run (case).c */; };
-		D9BB701A19629356005A2CE0 /* File.c in Sources */ = {isa = PBXBuildFile; fileRef = D9BB700B19629231005A2CE0 /* File.c */; };
 		D9BB701B19629428005A2CE0 /* Programs.c in Sources */ = {isa = PBXBuildFile; fileRef = D91A473019614B8A0079238E /* Programs.c */; };
+		D9BB701E1962AE6A005A2CE0 /* Poisci_besede.c in Sources */ = {isa = PBXBuildFile; fileRef = D9BB700B19629231005A2CE0 /* Poisci_besede.c */; };
+		D9BB70231962E675005A2CE0 /* Besede_na.c in Sources */ = {isa = PBXBuildFile; fileRef = D9BB701F1962C09B005A2CE0 /* Besede_na.c */; };
+		D9BB70251962E79B005A2CE0 /* Viroza.c in Sources */ = {isa = PBXBuildFile; fileRef = D9BB70241962E79B005A2CE0 /* Viroza.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,8 +51,12 @@
 		D97319921938CA440088FA87 /* while.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = while.c; sourceTree = "<group>"; };
 		D97319A11938CB840088FA87 /* for.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = for.c; sourceTree = "<group>"; };
 		D97319B01938CFF50088FA87 /* trgovina.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trgovina.c; sourceTree = "<group>"; };
-		D9BB700B19629231005A2CE0 /* File.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = File.c; sourceTree = "<group>"; };
+		D9BB700B19629231005A2CE0 /* Poisci_besede.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Poisci_besede.c; sourceTree = "<group>"; };
 		D9BB70111962934D005A2CE0 /* Putka testing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Putka testing"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BB701C1962AAE5005A2CE0 /* Najdi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Najdi.c; path = ../Najdi.c; sourceTree = "<group>"; };
+		D9BB701F1962C09B005A2CE0 /* Besede_na.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Besede_na.c; sourceTree = "<group>"; };
+		D9BB70211962E2A8005A2CE0 /* Imenaa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Imenaa.c; path = ../Imenaa.c; sourceTree = "<group>"; };
+		D9BB70241962E79B005A2CE0 /* Viroza.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Viroza.c; path = ../Viroza.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,10 +115,14 @@
 		D91A47201961412E0079238E /* Putka */ = {
 			isa = PBXGroup;
 			children = (
+				D9BB70211962E2A8005A2CE0 /* Imenaa.c */,
+				D9BB70241962E79B005A2CE0 /* Viroza.c */,
+				D9BB701C1962AAE5005A2CE0 /* Najdi.c */,
 				D91A472D196147A10079238E /* Run (case).c */,
 				D91A473019614B8A0079238E /* Programs.c */,
 				D91A47231961412E0079238E /* Test.1 */,
-				D9BB700B19629231005A2CE0 /* File.c */,
+				D9BB700B19629231005A2CE0 /* Poisci_besede.c */,
+				D9BB701F1962C09B005A2CE0 /* Besede_na.c */,
 			);
 			name = Putka;
 			path = Test;
@@ -187,7 +197,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9BB701E1962AE6A005A2CE0 /* Poisci_besede.c in Sources */,
 				D9BB701B19629428005A2CE0 /* Programs.c in Sources */,
+				D9BB70231962E675005A2CE0 /* Besede_na.c in Sources */,
 				D91A472E196147A10079238E /* Run (case).c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9BB701A19629356005A2CE0 /* File.c in Sources */,
+				D9BB70251962E79B005A2CE0 /* Viroza.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
