@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Putka testing.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>Test.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -63,6 +68,11 @@
 			<true/>
 		</dict>
 		<key>D97319B41938D0000088FA87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D9BB70101962934D005A2CE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,3 +7,20 @@
 //
 
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main()
+{
+    char a[2], b[256], *c;
+    gets(a);
+    gets(b);
+    c=strtok(b, " ");
+    while (c!=NULL) {
+        if (c[0]==a[0]){
+            printf("%s\n", c);
+        }
+        c=strtok(NULL, " ");
+    }
+    return 0;
+}
