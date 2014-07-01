@@ -176,7 +176,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Andrej Fidel";
 			};
-			buildConfigurationList = D9103E7D192F8E7800901C90 /* Build configuration list for PBXProject "Hello World" */;
+			buildConfigurationList = D9103E7D192F8E7800901C90 /* Build configuration list for PBXProject "Putka programs 2.0" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -328,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D9103E7D192F8E7800901C90 /* Build configuration list for PBXProject "Hello World" */ = {
+		D9103E7D192F8E7800901C90 /* Build configuration list for PBXProject "Putka programs 2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9103E89192F8E7800901C90 /* Debug */,
