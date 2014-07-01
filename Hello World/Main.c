@@ -20,6 +20,11 @@ int trgovina();
 int vecjinic();
 int vsota();
 int ugani();
+int imenaa();
+int viroza();
+int najdi();
+int poisciBes();
+int besedeNa();
 
 int main()
 {
@@ -37,8 +42,15 @@ int main()
     printf("8. Delete funkcija\n");
     printf("9. Insert funkcija\n");
     printf("10. Igra ugibanja\n");
+    printf("11. Imenaa\n");
+    printf("12. Viroza\n");
+    printf("13. Najdi\n");
+    printf("14. Poišči besede\n");
+    printf("15. Besede na\n");
     
-    scanf("%d", &a);
+    char buf[256];
+    gets(buf);
+    sscanf(buf, "%d", &a);
     switch(a)
     {
         case 1:
@@ -78,8 +90,28 @@ int main()
             ret = insert();
             break;
         case 10:
-            printf("Launching Ugibaj...\n\n");
+            printf("Launching Igra ugibanja...\n\n");
             ret = ugani();
+            break;
+        case 11:
+            printf("Launching Imenaa...\n\n");
+            ret = imenaa();
+            break;
+        case 12:
+            printf("Launching Viroza...\n\n");
+            ret = viroza();
+            break;
+        case 13:
+            printf("Launching Najdi...\n\n");
+            ret = najdi();
+            break;
+        case 14:
+            printf("Launching Poišči besede...\n\n");
+            ret = poisciBes();
+            break;
+        case 15:
+            printf("Launching Besede na...\n\n");
+            ret = besedeNa();
             break;
         default:
             printf("\n\nFailed! Closing program...\n\n");
