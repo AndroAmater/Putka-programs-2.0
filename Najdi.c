@@ -10,7 +10,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-int main(){
+int najdi(){
     char *a, b[128], c[64];
     int d=0, e=0, f=0;
     gets(c);

@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D91A47241961412E0079238E /* Test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D91A47231961412E0079238E /* Test.1 */; };
-		D91A472E196147A10079238E /* Run (case).c in Sources */ = {isa = PBXBuildFile; fileRef = D91A472D196147A10079238E /* Run (case).c */; };
+		D91A472E196147A10079238E /* Main.c in Sources */ = {isa = PBXBuildFile; fileRef = D91A472D196147A10079238E /* Main.c */; };
+		D9B08ADE1962F7CE00B656A7 /* Najdi.c in Sources */ = {isa = PBXBuildFile; fileRef = D9BB701C1962AAE5005A2CE0 /* Najdi.c */; };
+		D9B08ADF1962F7D200B656A7 /* Viroza.c in Sources */ = {isa = PBXBuildFile; fileRef = D9BB70241962E79B005A2CE0 /* Viroza.c */; };
+		D9B08AE01962F7D500B656A7 /* Imenaa.c in Sources */ = {isa = PBXBuildFile; fileRef = D9BB70211962E2A8005A2CE0 /* Imenaa.c */; };
 		D9BB701B19629428005A2CE0 /* Programs.c in Sources */ = {isa = PBXBuildFile; fileRef = D91A473019614B8A0079238E /* Programs.c */; };
 		D9BB701E1962AE6A005A2CE0 /* Poisci_besede.c in Sources */ = {isa = PBXBuildFile; fileRef = D9BB700B19629231005A2CE0 /* Poisci_besede.c */; };
 		D9BB70231962E675005A2CE0 /* Besede_na.c in Sources */ = {isa = PBXBuildFile; fileRef = D9BB701F1962C09B005A2CE0 /* Besede_na.c */; };
-		D9BB70251962E79B005A2CE0 /* Viroza.c in Sources */ = {isa = PBXBuildFile; fileRef = D9BB70241962E79B005A2CE0 /* Viroza.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,7 +48,7 @@
 		D91A47231961412E0079238E /* Test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Test.1; sourceTree = "<group>"; };
 		D91A47291961450D0079238E /* Sestevek.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Sestevek.c; sourceTree = "<group>"; };
 		D91A472B196146650079238E /* Vecji.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Vecji.c; sourceTree = "<group>"; };
-		D91A472D196147A10079238E /* Run (case).c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "Run (case).c"; path = "../Hello World/Run (case).c"; sourceTree = "<group>"; };
+		D91A472D196147A10079238E /* Main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Main.c; path = "../Hello World/Main.c"; sourceTree = "<group>"; };
 		D91A473019614B8A0079238E /* Programs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Programs.c; path = "../Hello World/Programs.c"; sourceTree = "<group>"; };
 		D97319921938CA440088FA87 /* while.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = while.c; sourceTree = "<group>"; };
 		D97319A11938CB840088FA87 /* for.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = for.c; sourceTree = "<group>"; };
@@ -118,7 +120,7 @@
 				D9BB70211962E2A8005A2CE0 /* Imenaa.c */,
 				D9BB70241962E79B005A2CE0 /* Viroza.c */,
 				D9BB701C1962AAE5005A2CE0 /* Najdi.c */,
-				D91A472D196147A10079238E /* Run (case).c */,
+				D91A472D196147A10079238E /* Main.c */,
 				D91A473019614B8A0079238E /* Programs.c */,
 				D91A47231961412E0079238E /* Test.1 */,
 				D9BB700B19629231005A2CE0 /* Poisci_besede.c */,
@@ -199,8 +201,11 @@
 			files = (
 				D9BB701E1962AE6A005A2CE0 /* Poisci_besede.c in Sources */,
 				D9BB701B19629428005A2CE0 /* Programs.c in Sources */,
+				D9B08AE01962F7D500B656A7 /* Imenaa.c in Sources */,
+				D9B08ADE1962F7CE00B656A7 /* Najdi.c in Sources */,
 				D9BB70231962E675005A2CE0 /* Besede_na.c in Sources */,
-				D91A472E196147A10079238E /* Run (case).c in Sources */,
+				D9B08ADF1962F7D200B656A7 /* Viroza.c in Sources */,
+				D91A472E196147A10079238E /* Main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +213,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9BB70251962E79B005A2CE0 /* Viroza.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +353,7 @@
 				D9BB70181962934D005A2CE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,7 +10,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-int main()
+int poisciBes()
 {
     char a[2], b[256], *c;
     gets(a);

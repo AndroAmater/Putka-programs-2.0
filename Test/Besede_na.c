@@ -10,7 +10,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-int main(){
+int besedeNa(){
     char a[2], b[256], *c;
     int f=0;
     gets(a);
