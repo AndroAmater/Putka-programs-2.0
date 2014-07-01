@@ -5,6 +5,8 @@
 //  Created by Andrej Fidel on 01/07/14.
 //  Copyright (c) 2014 Andrej Fidel. All rights reserved.
 //
+//http://www.putka.si/tasks/za_vajo/jajca2/viroza
+//
 
 #include <stdio.h>
 
